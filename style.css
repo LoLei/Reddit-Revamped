@@ -1,6 +1,4 @@
-@-moz-document domain('reddit.com') {
-	
-	/****************************
+/****************************
 	******* User Options  *******
 	****************************/    
 	
@@ -619,7 +617,8 @@
 	}	
 	
 	.usertext-body, .commentarea .usertext-body, .profile-page .usertext-body, .message .md {
-	    max-width: 38em !important;
+	    /*max-width: 38em !important;*/
+        max-width: 80em !important;
 	}
 		
 	.nsfw-stamp {
@@ -790,7 +789,7 @@
 	    border-radius: 0px !important;
 	    padding-left: 0px !important;
 	    padding-right: 0px !important;
-	    max-width: 38em !important;
+	    max-width: 80em !important;
 	}
 	
 	.usertext.grayed .usertext-body {
@@ -802,7 +801,7 @@
 	
 	.md {
 	    font-size: 14px !important;
-	    max-width: 620px !important;
+	    max-width: 800px !important;
 	    text-align: justify !important;
 	    margin-top: 3px !important;
 	    overflow: visible !important;
@@ -2793,4 +2792,3 @@
 	    margin-right: 10px !important;
 	    color: #aaa !important;
 	}
-}
